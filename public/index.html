@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link href="./css/mapstyle.css" rel="stylesheet" > 
+    </head>
+    <body>
+        <div id="mapContainer" ></div>
+                <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"
+                type="text/javascript" charset="utf-8"></script>
+                <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"
+                type="text/javascript" charset="utf-8"></script>
+                <script src="./creds.js"></script>
+                <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"
+                type="text/javascript" charset="utf-8"></script>
+                <link rel="stylesheet" type="text/css"
+                href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+                <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"
+                type="text/javascript" charset="utf-8"></script>
+
+                <script src="./dustbin.js"></script>
+                
+                <script src="./map.js"></script>      
+        <div class="div2">
+            <h1>Locate dustbins in your nearby places !!</h1>
+            <button id="sendFence">Check Availability</button>     
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <!-- <script src="./js/mapdisp.js"></script> -->
+        <!-- <script src="./js/user.js"></script> -->
+        <!-- <script src="./js/index.js"></script> -->
+    </body>
+</html>

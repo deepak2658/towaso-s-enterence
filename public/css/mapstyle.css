@@ -1,0 +1,55 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#mapContainer{
+    margin: 0 2px;
+    margin-bottom:20px ;
+    border: 2px solid black;
+    box-shadow: 0 2px 5px 0 rgba(97, 95, 95, 0.6), 0 2px 5px 0 rgba(82, 80, 80, 0.9);
+    /*
+    height: 80vh; 
+    */
+    height: 70vh;
+    align-self: center;
+    background-color: aqua;
+}
+
+.div2{
+    text-align: center;
+}
+.click{
+    padding: 12px 80px;
+    color: white;
+    background-color: teal;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.div2 a:hover{
+    background-color: rgb(3, 70, 70);
+    transition: 0.5s;
+}
+.div2 p{
+    font-size:18px ;
+}
+
+@media screen and (max-width:554px)
+{
+    .div2 p{
+        font-size:16px ;
+    }
+    .div2 h1{
+        font-size: 25px;
+    }
+    .click{
+        padding: 8px 40px;
+        color: white;
+        background-color: teal;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
